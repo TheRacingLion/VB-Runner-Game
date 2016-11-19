@@ -1,0 +1,9 @@
+C:\Users\Utilizador\documents\visual studio 2010\Projects\Runner Game\Runner Game\bin\Debug\Runner Game.exe
+C:\Users\Utilizador\documents\visual studio 2010\Projects\Runner Game\Runner Game\bin\Debug\Runner Game.pdb
+C:\Users\Utilizador\documents\visual studio 2010\Projects\Runner Game\Runner Game\bin\Debug\Runner Game.xml
+C:\Users\Utilizador\documents\visual studio 2010\Projects\Runner Game\Runner Game\obj\x86\Debug\Runner_Game.Run.resources
+C:\Users\Utilizador\documents\visual studio 2010\Projects\Runner Game\Runner Game\obj\x86\Debug\Runner_Game.Resources.resources
+C:\Users\Utilizador\documents\visual studio 2010\Projects\Runner Game\Runner Game\obj\x86\Debug\Runner Game.vbproj.GenerateResource.Cache
+C:\Users\Utilizador\documents\visual studio 2010\Projects\Runner Game\Runner Game\obj\x86\Debug\Runner Game.exe
+C:\Users\Utilizador\documents\visual studio 2010\Projects\Runner Game\Runner Game\obj\x86\Debug\Runner Game.xml
+C:\Users\Utilizador\documents\visual studio 2010\Projects\Runner Game\Runner Game\obj\x86\Debug\Runner Game.pdb

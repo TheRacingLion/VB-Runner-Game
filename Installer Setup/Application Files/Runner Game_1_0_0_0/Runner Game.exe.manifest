@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Runner Game.exe" version="1.0.0.0" publicKeyToken="56f75e882160ea5c" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Runner Game" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Runner Game.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Runner Game.exe" size="64512">
+      <assemblyIdentity name="Runner Game" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+qqKYKKVEY8Brn3JyayLbw6GfTo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=ASUS\Utilizador" issuerKeyHash="3f039e3ce6691b9188c3193dacf04225dcdd866c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>nXhgpPDk8qHr1VF8sQ3CE4OuWdM=</DigestValue></Reference></SignedInfo><SignatureValue>gxyAxeTIGUzpJjvUSwK001lrwA+SHo8s4JVy7Ikc4Hz3USUvRmhWy0/Kf1y3Zn16DEOyQk8A0Ax5tD1UNhGteYAMwqUX4dcpCAvND7g14m7gKL43zUfbcSV3I0WLr6Wwq9X4AOwcqmJ7bzD1ZZisQr+SBYZTpy/QoI/IuS74HDU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ovBDHERKCIIr0+y67qRjFmW0lU7zqQcHtXlCUWDIfEjc9JFc7+vFgPnPdlI+uBg0oGNG6CABVtINaiwc6rshSJZFu3qqWObwn6Ls0+Oj1aFLrcuIEeEyB3S14VCr360Suf6tsBGEBknyTC4UqCU+LnFinQ2/qS9quLbzAcLo95E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d359ae8313c20db17c51d5eba1f2e4f0a460789d" Description="" Url=""><as:assemblyIdentity name="Runner Game.exe" version="1.0.0.0" publicKeyToken="56f75e882160ea5c" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ASUS\Utilizador</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>biSY8nAF13N0O9aU4q8DAVDOfqs=</DigestValue></Reference></SignedInfo><SignatureValue>SV9AkL4iBYjP2RSnLRPsY/Y2YL63XUgV4UGDr01qJUqnlEII5FvTYg/zsNgfGvJk5yLQeedK0d7touCpSD9QgFA6EoKrqHm14NJhu0nndyFSzU2lDtNc74OyyXOOqz/IGUeYZTRTV0haKtAQx2rLefQBYo0HsWm7++slfy/kojY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ovBDHERKCIIr0+y67qRjFmW0lU7zqQcHtXlCUWDIfEjc9JFc7+vFgPnPdlI+uBg0oGNG6CABVtINaiwc6rshSJZFu3qqWObwn6Ls0+Oj1aFLrcuIEeEyB3S14VCr360Suf6tsBGEBknyTC4UqCU+LnFinQ2/qS9quLbzAcLo95E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQN0OegYT9GIVE32q1kNGZfjANBgkqhkiG9w0BAQUFADApMScwJQYDVQQDHh4AQQBTAFUAUwBcAFUAdABpAGwAaQB6AGEAZABvAHIwHhcNMTYxMTE5MDEzNzQwWhcNMTcxMTE5MDczNzQwWjApMScwJQYDVQQDHh4AQQBTAFUAUwBcAFUAdABpAGwAaQB6AGEAZABvAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKLwQxxESgiCK9Psuu6kYxZltJVO86kHB7V5QlFgyHxI3PSRXO/rxYD5z3ZSPrgYNKBjRuggAVbSDWosHOq7IUiWRbt6qljm8J+i7NPjo9WhS63LiBHhMgd0teFQq9+tErn+rbARhAZJ8kwuFKglPi5xYp0Nv6kvari28wHC6PeRAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAbLj7HzQ5+dxUjB7PO1YY/H69lHdUPa9ZkOWqMo+U3R8JhpvfqbA67EPMYg5ZzhWUQ7JcpVe2TaxmjGNDpR5qrnKv1JJURgAwSwgT9r7EOBx5LU5+PgwovpfY5JC2DJlehcWWHGSz+SVcgbOMQ16N0ShCGXC/M7NRMVF+nM13Y+s=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
