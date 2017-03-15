@@ -5,7 +5,7 @@
     <a href="http://forthebadge.com"><img src="http://forthebadge.com/images/badges/made-with-crayons.svg"></a>
   <br>
 </p>
-</div><br />
+</div>
 <h3>- Starting Up -</h3>
 
 There are two ways to start the game:
