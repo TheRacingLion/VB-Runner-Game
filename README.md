@@ -1,7 +1,10 @@
 <div align="center">
   <h1 align="center">~ Runner Game ~</h1>
-    **This project was made as an extremely simple school project.**<br />Created a repository to save it.<br /><br />
-    [![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
+    <strong>This project was made as an extremely simple school project.</strong><br />Created a repository to save it.<br /><br />
+  <p align="center">
+    <a href="http://forthebadge.com"><img src="http://forthebadge.com/images/badges/made-with-crayons.svg"></a>
+  <br>
+</p>
 </div><br />
 <h3>- Starting Up -</h3>
 
